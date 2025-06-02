@@ -1,0 +1,25 @@
+# Web framework
+fastapi>=0.85.0
+uvicorn[standard]>=0.18.0
+
+# File uploads
+python-multipart>=0.0.5
+
+# Model serving
+transformers>=4.25.0
+torch>=1.12.0
+bitsandbytes>=0.39.0         # for 8-bit quantization
+huggingface-hub>=0.14.1      # snapshot_download, HF API
+
+# ONNX Runtime (optional for BART)
+onnxruntime>=1.14.0
+
+# Serializer formats
+safetensors>=0.3.0
+sentencepiece>=0.1.96        # if your Pegasus tokenizer needs it
+
+# Validation (FastAPI dependency)
+pydantic>=1.10.0
+
+accelerate>=0.22.0
+

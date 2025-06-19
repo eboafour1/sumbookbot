@@ -19,6 +19,9 @@ rad.json
 #License-file
 *.flf
 #Test results file
-TestResults.xml
-/node_modules
-/models
+TestResults.xml/
+node_modules/
+models/
+Backend/models/bart
+Backend/models/bertsum
+Backend/models/pegasus
